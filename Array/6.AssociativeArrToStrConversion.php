@@ -2,9 +2,9 @@
 /*
  *
  *  - অ্যাসোসিয়েটিভ অ্যারে থেকে স্ট্রিংয়ে কনভার্সন - সিরিয়ালাইজ, জেসন
-  Associative Array with
- * json_encode() = return string
- * json_decode() = return array
+ *Associative Array with
+     json_encode() = return string
+     json_decode() = return array
  */
 
 

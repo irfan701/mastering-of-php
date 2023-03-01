@@ -1,6 +1,7 @@
 <?php
 
 /*
+ *  - কপি বাই ভ্যালু এবং কপি বাই রেফারেন্স
  * copy by value or deep copy
  * copy by reference or shallow copy
  * &=memory address er akta copy

@@ -1,4 +1,9 @@
 <?php
+/*
+ *
+ *  - অ্যারে পরিচিতি
+ */
+
 $n=12;
 
 $students=array('Irfan','Sajid',123);//Array will be start from 0;

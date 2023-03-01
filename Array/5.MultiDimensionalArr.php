@@ -1,8 +1,7 @@
 <?php
 /*
+ * - মাল্টিডাইমেনশনাল বা নেস্টেড অ্যারে
  * Multidimensional Array= Nested Array or Array er moddey Array
- *
- *
  */
 $foods=[
     'fruits'=>explode(', ','Apple, Banana, Apricot, Avocados, Blueberry, Blackcurrant'),

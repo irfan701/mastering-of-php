@@ -1,5 +1,6 @@
 <?php
 /*
+ * - স্ট্রিং থেকে অ্যারে এবং অ্যারে থেকে স্ট্রিং, মাল্টিপল ডেলিমিটার
  * explode() = string to array transform
  * join() =Array to string transform
  * preg_split = for multiple delimiter

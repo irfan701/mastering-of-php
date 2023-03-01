@@ -1,5 +1,6 @@
 <?php
 /*
+ * - এম্পটি ভ্যালু নিয়ে আলোচনা (ইম্পর্ট্যান্ট)
  * isset()
  * empty()
  * confusion with $name=0;
