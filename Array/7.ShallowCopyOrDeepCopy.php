@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * copy by value or deep copy
+ * copy by reference or shallow copy
+ * &=memory address er akta copy
+ */
+
 //copy by value or deep copy
 
 $person=[
@@ -14,10 +20,8 @@ print_r($person);
 print_r($newPerson);
 
 
+//copy by reference or shallow copy ;&=memory address er akta copy
 
-
-//copy by reference or shallow copy
-//&=memory address er akta copy
 $person2=[
     'fname'=>"Irfan",
     'lname'=>"Hossain"
