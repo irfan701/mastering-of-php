@@ -2,6 +2,7 @@
 /*
  *  - মূল অ্যারে ঠিক রেখে অ্যারে থেকে কিছু ডেটা এক্সট্রাক্ট করা
  *  array_slice() with indexed array & Associative Array
+ *  original array ke modify korey na
  *  -1 last porjonto
  */
 
