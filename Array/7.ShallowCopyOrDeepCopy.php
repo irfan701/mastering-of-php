@@ -29,3 +29,14 @@ $newPerson2['lname']="Sanju";
 print_r($person2);
 print_r($newPerson2);
 
+
+echo "NEXT LINE"."\n";
+
+
+
+function printData(&$person){
+    $person['fname'].= " changed";
+    print_r($person);
+}
+printData($person);
+print_r($person);
