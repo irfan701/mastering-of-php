@@ -11,3 +11,23 @@ function isFruitChecked($value){
         echo "checked";
     }
 }
+//Single Or Multiple
+//function displayOptions($options){
+//    foreach ($options as $option){
+//        $x=strtolower($option);
+//        $y=ucwords($option);
+//        echo "<option value=$x>$y</option>";
+//    }
+//}
+function displayOptions($options,$selectedValues){
+    foreach ($options as $option){
+        $x=strtolower($option);
+        $y=ucwords($option);
+        $selected='';
+        if(in_array($x,$selectedValues)){
+            $selected='selected';
+        }
+       echo "<option value=$x $selected>$y</option>";
+       // printf( "<option value='%s' %s>%s</option>\n",$x,$selected,$y);
+    }
+}
