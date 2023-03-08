@@ -7,7 +7,7 @@ include_once 'functions.php'
 
 /*
  *
- * Sanitize of User Input
+ * Input Checkbox & Group Checked
  */
 ?>
 
@@ -31,22 +31,18 @@ include_once 'functions.php'
 <div class="container">
     <div class="row">
         <div class="col col-md-12 offset-md-3">
-
-       <h2>Input Checkbox & Group Checkbox</h2>
+        <h4>Input Checkbox & Group Checkbox</h4>
 
             <?php
             $fname = '';
             $lname = '';
             $checked='';
-
             ?>
 
             <p>
                 <?php if(isset($_REQUEST['cb1']) && $_REQUEST['cb1']==1) {
-
                     $checked="checked";
                 }?>
-
 
 
                 <?php if (isset($_REQUEST['fname']) && !empty($_REQUEST['fname'])) { ?>
@@ -62,15 +58,19 @@ include_once 'functions.php'
                 First Name :<?php echo $fname ?>
                 <br/>
                 Last Name :<?php echo $lname ?>
+                <br>
+                Single Checkbox :<?php echo $checked ?>
+                <br>
+                <?php
+                if (isset($_REQUEST['fruits'])){
+                    print_r($_REQUEST['fruits']);
+                }
+                ?>
+
             </p>
 
-            <?php
-            print_r($_REQUEST['fruits'])
-            ?>
-            ?>
-
             <div class="row">
-                <div class="col-md-6 card">
+                <div class="col-md-6 card p-2" style="background: antiquewhite">
                     <form method="POST">
                         <div class="col-md-8">
                             <div class="mb-2">
