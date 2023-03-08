@@ -1,16 +1,10 @@
 
 <?php
-
-include_once 'functions.php'
-?>
-<?php
-
 /*
- *
  * Input Checkbox & Group Checked
  */
+include_once 'functions.php'
 ?>
-
 
 <!doctype html>
 <html lang="en">
@@ -66,7 +60,6 @@ include_once 'functions.php'
                     print_r($_REQUEST['fruits']);
                 }
                 ?>
-
             </p>
 
             <div class="row">
