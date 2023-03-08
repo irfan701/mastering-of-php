@@ -1,12 +1,8 @@
 <?php
-
 /*
- *
  * Sanitize of User Input
  */
 ?>
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,14 +22,10 @@
 <div class="container">
     <div class="row">
         <div class="col col-md-12 offset-md-3">
-
-            <span><code>GET </code>Query String :</span><code>form.php?fname=Irfan+%26+Hossain&lname=LLB+>eere&submit=Submit</code>
-            <code>XSS</code>
-
+            <h3>Sanitize of User Input</h3>
             <?php
             $fname = '';
             $lname = '';
-
             ?>
 
             <p>
@@ -47,42 +39,37 @@
                 <?php } ?>
             </p>
             <p>
-                First Name :<?php echo $fname ?>
+                First Name : <?php echo $fname ?>
                 <br/>
-                Last Name :<?php echo $lname ?>
+                Last Name : <?php echo $lname ?>
             </p>
 
             <div class="row">
-                <div class="col-md-6 card">
+                <div class="col-md-6 card p-2" style="background: antiquewhite">
                     <form method="POST">
                         <div class="col-md-8">
-                            <div class="mb-3">
+                            <div class="mb-2">
                                 <label class="form-label">First Name</label>
                                 <input type="text" name="fname" value="<?php echo $fname ?>" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="mb-3">
+                            <div class="mb-2">
                                 <label class="form-label">Last Name</label>
                                 <input type="text" name="lname" value="<?php echo $lname ?>" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="mb-3">
+                            <div class="mb-2">
 
-                                <input type="submit" name="submit" class="btn btn-success">
+                                <button type="submit" class="btn btn-success">Save</button>
                             </div>
                         </div>
                     </form>
                 </div>
-
             </div>
-
-
         </div>
     </div>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
