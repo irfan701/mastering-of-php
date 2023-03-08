@@ -39,11 +39,11 @@
             <p>
                 <?php if(isset($_REQUEST['fname']) && !empty($_REQUEST['fname'])){ ?>
 
-              <?php  $fname=$_REQUEST['fname'] ?>
+              <?php  $fname=htmlspecialchars($_REQUEST['fname']) ?>
 
                 <?php }?>
                 <?php if(isset($_REQUEST['lname'])&& !empty($_REQUEST['lname'])){ ?>
-                    <?php $lname=$_REQUEST['lname'] ?>
+                    <?php $lname=htmlspecialchars($_REQUEST['lname']) ?>
                 <?php }?>
             </p>
 <p>
