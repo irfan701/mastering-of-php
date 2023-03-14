@@ -1,6 +1,5 @@
 <?php
 /*
- *
  *  - স্ট্রিয়ের ভেতর স্ট্রিং সার্চ করা
  */
 $string="The simple rat Rat exclaimed, This is amazing news! Friend, lead the way.";
