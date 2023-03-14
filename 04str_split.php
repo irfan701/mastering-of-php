@@ -1,6 +1,5 @@
 <?php
 /*
- *
  *  - স্ট্রিংকে ভেঙে টুকরো টুকরো করা -
  */
 $string="Hello World,World How Are You!";
